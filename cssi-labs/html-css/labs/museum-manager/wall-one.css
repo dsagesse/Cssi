@@ -28,10 +28,28 @@ body {
   display: flex;
   height: 100px;
   /*justify-content: ;*/
+  justify-content: space-between;
+  margin: 20px;
 }
 
 #vg2 {
   flex:0 0 auto;
+  order: 3;
+}
+
+#vg3 {
+  flex:0 0 auto;
+  order: 1;
+}
+
+#vg4 {
+  flex:0 0 auto;
+  order: 2;
+}
+
+#vg5 {
+  flex:0 0 auto;
+  order: 4;
 }
 
 /* Insert the styling for the remaining paintings below */
