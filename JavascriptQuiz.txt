@@ -1,0 +1,42 @@
+1. >>> print 'hello world'
+hello world
+>>>
+
+2. const fname = {
+let fname = 'Darnell'
+};
+
+const lname = {
+let lname = 'Sagesse'
+};
+
+3.var x = 1,
+    y = 2,
+    tmp;
+tmp = a;
+a = b;
+b = tmp;
+
+4. True
+
+5.
+
+6.print(True)
+print((True))
+print((False))
+
+7.
+
+8. #include <stdio.h>
+int main() {
+	int x, i;
+	printf("Input an integer: ");
+	scanf("%d", &x);
+
+	for(i = 1; i <= 500; i++)
+	{
+		if((i%x) == 3) {
+			printf("%d\n", i);
+		}
+	}
+	return 0;
