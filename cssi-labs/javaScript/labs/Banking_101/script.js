@@ -21,7 +21,6 @@ function openAccount(name,balance = 0){
 customer_name = name;
   return name + " has opened a new account with a balance of " + myBalance//write the statment you need to return here
 }
-openAccount("Darnell",100);
 
 function deposit(value){
   // update the value of balance

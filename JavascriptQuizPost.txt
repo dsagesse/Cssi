@@ -1,0 +1,25 @@
+1.    console.log(I will succeed);\
+2. console.log(lname,fname);
+3. let tmp =x,
+  x = y,
+  y = tmp
+4. "I am in" F/F/T/F
+5. if (x > y)
+  {console.log(x);}
+  else
+  {console.log(y);}
+  6.
+  7. for( let i = 97; i > = 1; i = i -1)
+{
+  if(i % 3 = = 1)
+  {console.log(i);}
+}
+8.
+9.
+10. for (let; = 100; i > = 2; i = i - 2)
+{
+  if ( i != 100)
+  {
+    console.log(i)
+  }
+}
