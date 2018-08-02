@@ -37,3 +37,7 @@ function Important_Alarm(time){
   return "WAKE UP, WAKE UP, WAKE UP! " + time;
 }
 console.log(Important_Alarm(""));
+
+function Snooze_Alarm(time){
+  return Snooze_Alarm
+}

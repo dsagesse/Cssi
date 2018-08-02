@@ -15,20 +15,20 @@
 let customer_name;
 let balance;
 
-function openAccount(name,balance = 0){
-  myBalance = balance;
+function openAccount(name, balance = 0){
+  return myBalance = balance;
   // Set the value for customer_name equal to name below
 customer_name = name;
   return name + " has opened a new account with a balance of " + myBalance//write the statment you need to return here
 }
 
-function deposit(value){
-  // update the value of balance
+function deposit(myBalance = 1000){
+    return  name + " has deposited myBalance. customer_name total balance is $Balance "// update the value of balance
   //return the correct statement
 }
 
-function withdraw(/*argument here*/){
-  //update the value of balance
+function withdraw(myBalance - name){
+  return name + " has withdrawn Amount. customer_name has total $ myBalance remaining"//update the value of balance
   //return the correct statement
 }
 

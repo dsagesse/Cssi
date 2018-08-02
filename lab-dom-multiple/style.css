@@ -1,0 +1,16 @@
+.red { background: red; }
+.blue { background: blue; }
+.green { background: green; }
+button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: white;
+}
+#box {
+  margin: 40px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+    transition: 500ms;
+  }
