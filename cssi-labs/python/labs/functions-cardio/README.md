@@ -1,4 +1,4 @@
-
+ 
 # Functions Cardio
 
 The best way to get good at something is just doing it - lots of attempts in a short span of time. This lab is all about practice. We're calling it functions cardio, but don't sweat it - this is a great chance to see what makes sense to you and what you will need some help with.
