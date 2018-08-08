@@ -1,0 +1,12 @@
+1. def smallest_num_in_list( list ):
+    min = list[ 0 ]
+    for a in list:
+        if a < min:
+            min = a
+    return min
+print(smallest_num_in_list([3, 65, 1,])
+
+2. sum = 0
+for i in range(0, 11, 2):
+    print(i)
+    sum += i
