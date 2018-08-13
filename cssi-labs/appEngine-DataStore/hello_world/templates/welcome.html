@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <h1> NYC is located in {{ region_name }}</h1>
+    {{ country }} {{ region_num }}
+
+    {% if country == 'usa' %}
+    <h1> hello Brooklyn </h1>
+    {% endif %}
+    <br/>
+
+    <form action="/showresults" method="POST">
+      First name:<br>
+      <input type="text" name="firstname" value="Mickey">
+      <br>
+      Last name:<br>
+      <input type="text" name="lastname" value="Mouse">
+      <br>
+      Age: <br>
+      <input type="text" name="age" value="MyAge">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+
+  </body>
+</html>
