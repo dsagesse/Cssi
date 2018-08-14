@@ -1,0 +1,64 @@
+
+#head {
+
+	margin:auto;
+	height: 100px;
+  width: 100%;
+	background-color: #FE9C11;
+	color: #FBF8F4;
+	display: inline-flex;
+	width: 100%
+	height: 100px;
+	background-color: #FE9C11;
+	color: #FBF8F4;
+	align-items: center;
+	justify-content: center;
+}
+
+.solo-challenge{
+
+}
+
+.Playwithfriends{
+
+}
+#contact{
+
+}
+
+#join{
+
+}
+#friends{
+
+}
+#code{
+
+}
+
+/*
+box 1.
+*/
+.btn {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1.2rem;
+  font-weight: 100;
+  height: 100px;
+  width: 100px;
+}
+
+#red {
+  background-color: red;
+}
+
+.container {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 100px 300px;
+  margin: 25px;
+}
+
+#blue {
+  background_color: blue;
+}

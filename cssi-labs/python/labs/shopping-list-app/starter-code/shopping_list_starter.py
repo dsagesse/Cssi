@@ -27,7 +27,26 @@ while choice.lower() != "e":
     print("c. Check to see if an item is on the list")
     print("d. Show all items on the list")
     print("e. exit")
-    
+
     choice = input("Enter your choice [a|b|c|d|e]:")
-    
+
     # Your code below! Handle the cases when the user chooses a, b, c, d, or e
+if choice == "a":
+    x = raw_input("Enter a new item: ")
+    shopping_list.append(x)
+
+elif choice == "b":
+    y = raw_input("Enter an item to remove: ")
+    shopping_list.remove(y)
+
+
+elif choice == "c":
+    item = raw_input('Enter Item')
+    if item in shopping_list:
+        print "item is in the list"
+    else:
+        print "item is not in the list"
+
+elif choice == 'd':
+    for i in shopping_list:
+        print (i)

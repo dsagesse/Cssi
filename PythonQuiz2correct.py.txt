@@ -1,0 +1,5 @@
+1. def smallestnumber(x,y,z):
+        least = x
+        if least y < least :
+          lest = y
+  

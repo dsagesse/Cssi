@@ -16,5 +16,10 @@
 
 # Replace "pass" with your code
 
-class BankAccount(object):
-    pass
+class BankAccount():
+    def_init_(self,label,balance):
+        self.label = label
+        self.label = balance
+
+    def_init_(self):
+        return "{0}" "{1}".format(self,label,balance)

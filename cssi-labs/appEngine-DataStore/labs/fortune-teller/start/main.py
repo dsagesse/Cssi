@@ -34,7 +34,13 @@ import webapp2
 import os
 import random
 import jinja2
+import google.appengine.api import urllfetch
+import urllib
+import json
 
+url = 'http://www.googleapis.com/customsearch/v1?'
+KEY = 'AIzaSyA3_toxfPkxPmUAJRLT4aDKQirkYrXNRzQ'
+CX = '010276842333776467087:zqqflc5vqic'
 
 def get_fortune():
     #add a list of fortunes to the empty fortune_list array

@@ -28,4 +28,22 @@ inside_movie = {
 
 # Write your code below to update the information in accordance with its
 # IMDB page: http://www.imdb.com/title/tt2096673/
+inside_movie["year_released"] = 2015
+inside_movie["score"] = 8.2
+inside_movie["reviews"] = 492,446
 
+inside_movie.pop("out_of")
+
+inside_movie["genre"] = [ "Animation","Adventure","Comedy"]
+
+for i in inside_movie:
+    print i,":", inside_movie[i]
+
+print
+
+for i,j in inside_movie.items():
+    print i,
+
+shrek_movie = {
+    "title": "Shrek"
+}
